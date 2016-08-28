@@ -1,54 +1,62 @@
 <!DOCTYPE html>
-<html><head>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="text/javascript" src="js/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Poiret+One|Indie+Flower|Architects+Daughter" rel="stylesheet">
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<meta http-equiv="content-type" content="text/html; charset=windows-1252"></head>
-  <body>
-  <div class="container">
-        <div class="row">
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="js/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Poiret+One|Indie+Flower|Architects+Daughter" rel="stylesheet">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    </head>
+    <body>
+      <div class="container">
+        <header class="row">
             <div class="col-md-6 col-sm-3">
                 <img src="img/logo.svg" width="100px" alt="Logo" height="100px" class="img-responsive">
             </div>
-            <div class="col-md-6 col-sm-9 text-right changedFont text-uppercase">
+            <div class="col-md-6 col-sm-9 text-right changed-font text-uppercase">
                 <h1>Amrit Ghimire</h1>
                 <h4>Student of computer engineering</h3>
             </div>
-                            <hr style="width: 95%; color: black; height: 3px; background-color:black;" />
-            
+        </header>
+        <div class="row">
+            <div class="col-md-12"><hr/></div>
         </div>
+        <div class="row">
+            <div class="col-md-12">
+              <img src="img/errors.jpg" class="img-responsive" alt="Banner">
+            </div>
+        </div>
+        <div class="row feature">
+            <div class="col-md-12">
+              <h2>Some of tasks I did</h2>
+            </div>
+        </div>
+        <main class="row">
+              <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                    <img src="img/loadshedding-schedule.jpg" class="img-responsive" data-toggle="modal" data-target="#loadsheddingM" alt="Loadshedding schedule in Nepal">
+                    <h3 class="changed-font text-uppercase"> Loadshedding</h3>
+                    <p><a href="https://github.com/amritghimire/loadshedding/"><small>https://github.com/amritghimire/loadshedding/</small></a></p>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                  <img src="img/moviesite.png" class="img-responsive" data-toggle="modal" data-target="#movieWebsite" alt="Movie Website">
+                  <h3 class="changed-font text-uppercase">Movie Website</h3>
+                  <p>
+                      <a href="https://github.com/amritghimire/MovieWebsite/"><small>https://github.com/amritghimire/MovieWebsite/</small></a>
+                  </p>
+              </div>
 
-    <div class="row">
-      <img src="img/errors.jpg" class="img-responsive" alt="Banner">
-    </div>
-    <div class="row feature">
-      <h2>Some of tasks I did</h2>
-    </div>
-    <div class="row">
-      <div class="col-md-4 col-sm-4 col-xs-12 text-center">
-        <img src="img/loadshedding-schedule.jpg" class="img-responsive" data-toggle="modal" data-target="#loadsheddingM" alt="Loadshedding schedule in Nepal">
-        <h3 class="changedFont text-uppercase"> Loadshedding</h3>
-          <p><a href="https://github.com/amritghimire/loadshedding/"><small>https://github.com/amritghimire/loadshedding/</small></a></p>
-      </div>
-      <div class="col-md-4 col-sm-4 col-xs-12 text-center">
-        <img src="img/moviesite.png" class="img-responsive" data-toggle="modal" data-target="#movieWebsite" alt="Movie Website">
-        <h3 class="changedFont text-uppercase">Movie Website</h3>
-          <p><a href="https://github.com/amritghimire/MovieWebsite/"><small>https://github.com/amritghimire/MovieWebsite/</small></a></p>
-      </div>
+              <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                    <img src="img/monsoon.jpg" class="img-responsive" data-toggle="modal" data-target="#monsoon" alt="Monsoon">
+                    <h3 class="changed-font text-uppercase">Project Monsoon</h3>
+                    <p><a href="http://github.com/amritghimire/app"><small>http://github.com/amritghimire/app</small></a></p>
+              </div>
+        </main>
 
-      <div class="col-md-4 col-sm-4 col-xs-12 text-center">
-        <img src="img/monsoon.jpg" class="img-responsive" data-toggle="modal" data-target="#monsoon" alt="Monsoon">
-        <h3 class="changedFont text-uppercase">Project Monsoon</h3>
-          <p><a href="http://github.com/amritghimire/app"><small>http://github.com/amritghimire/app</small></a></p>
       </div>
-    </div>
-
-  </div>
       <!-- Modal -->
-    <div class="modal fade" id="loadsheddingM" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal fade" id="loadsheddingM" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -67,10 +75,10 @@
                 </div>
             </div>
         </div>
-    </div>
+     </div>
 
          <!-- Modal -->
-    <div class="modal fade" id="movieWebsite" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal fade" id="movieWebsite" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -89,10 +97,10 @@
                 </div>
             </div>
         </div>
-    </div>
+     </div>
       
          <!-- Modal -->
-    <div class="modal fade" id="monsoon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal fade" id="monsoon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -111,6 +119,7 @@
                 </div>
             </div>
         </div>
-    </div>
+     </div>
       
-</body></html>
+    </body>
+</html>

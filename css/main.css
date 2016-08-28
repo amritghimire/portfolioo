@@ -1,12 +1,15 @@
-.changedFont{
-      font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+.changed-font {
+      font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
 }
-a{
-    font-family: 'Indie Flower', cursive;
+a {
+    font-family: "Indie Flower", cursive;
 }
-.feature{
-    font-family: 'Poiret One', cursive;
+.feature {
+    font-family: "Poiret One", cursive;
 }
-.modal-header{
-    font-family: 'Pathway Gothic One', sans-serif;
+.modal-header {
+    font-family: "Pathway Gothic One", sans-serif;
+}
+hr {
+    width: 95%; color: black; height: 3px; background-color:black;
 }
